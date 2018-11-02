@@ -6815,6 +6815,9 @@ a.text-dark:hover, a.text-dark:focus {
     float: right; }
   .b-mainMenu_headerSite {
     padding: 33px 0; }
+  .b-mainMenu__button {
+    border: 1px solid #eeeeee;
+    border-radius: 5px; }
 
 .b-aboutMe {
   padding: 0 90px;
@@ -6832,7 +6835,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: #787878;
     font-size: 18px;
     text-align: center;
-    width: 576px;
+    max-width: 576px;
     margin: auto; }
 
 .b-productsGridUnit:nth-child(2n) .b-productsGridUnit__item {

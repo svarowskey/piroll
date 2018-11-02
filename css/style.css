@@ -6835,14 +6835,20 @@ a.text-dark:hover, a.text-dark:focus {
     width: 576px;
     margin: auto; }
 
-.b-productsGrid {
-  margin: 0; }
-  .b-productsGrid__item {
-    width: 285px;
-    height: 285px;
-    background-color: #838383; }
-    .b-productsGrid__item:nth-child(2n) {
-      background-color: #dddddd; }
+.b-productsGridUnit:nth-child(2n) .b-productsGridUnit__item {
+  background-color: #dddddd; }
+@media (min-width: 992px) {
+  .b-productsGridUnit:nth-child(n+5) .b-productsGridUnit__item {
+    margin-top: 30px; } }
+@media (max-width: 991.98px) {
+  .b-productsGridUnit:nth-child(n+4) .b-productsGridUnit__item {
+    margin-top: 30px; } }
+@media (max-width: 767.98px) {
+  .b-productsGridUnit:nth-child(n+3) .b-productsGridUnit__item {
+    margin-top: 30px; } }
+.b-productsGridUnit__item {
+  height: 285px;
+  background-color: #838383; }
 
 body {
   background-color: #f6f6f6;

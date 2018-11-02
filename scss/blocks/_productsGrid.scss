@@ -1,0 +1,13 @@
+.b-productsGrid {
+  margin: 0;
+
+  &__item {
+    width: 285px;
+    height: 285px;
+    background-color: #838383;
+
+    &:nth-child(2n) {
+      background-color: #dddddd;
+    }
+  }
+}

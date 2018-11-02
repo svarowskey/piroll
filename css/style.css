@@ -6835,6 +6835,15 @@ a.text-dark:hover, a.text-dark:focus {
     width: 576px;
     margin: auto; }
 
+.b-productsGrid {
+  margin: 0; }
+  .b-productsGrid__item {
+    width: 285px;
+    height: 285px;
+    background-color: #838383; }
+    .b-productsGrid__item:nth-child(2n) {
+      background-color: #dddddd; }
+
 body {
   background-color: #f6f6f6;
   font-family: Montserrat, sans-serif; }

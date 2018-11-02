@@ -4,8 +4,13 @@
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/mainMenu";
+@import "blocks/aboutMe";
+
+body {
+  background-color: #f6f6f6;
+  font-family: Montserrat, sans-serif;
+}
 
 .container {
-  background-color: #eee;
   padding: 0;
 }

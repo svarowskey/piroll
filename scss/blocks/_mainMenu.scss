@@ -1,0 +1,25 @@
+.b-mainMenu {
+  font-family: Montserrat, sans-serif;
+
+  &__item {
+    color:  #191919;
+    font-size: 12px;
+    font-weight: 500;
+
+    &_active {
+      color:  #10c9c3;
+    }
+
+    &:hover {
+      color:  #10c9c3;
+    }
+  }
+
+  &_right {
+    float: right;
+  }
+
+  &_headerSite {
+    padding: 33px 0;
+  }
+}

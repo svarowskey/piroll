@@ -6901,7 +6901,8 @@ a.text-dark:hover, a.text-dark:focus {
     align-items: center;
     margin-bottom: 30px; }
     .b-footerFooterCopyrights__text {
-      max-width: none; } }
+      max-width: none;
+      text-align: center; } }
 
 .b-footerFooterContacts {
   display: flex;

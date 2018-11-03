@@ -39,7 +39,26 @@
   }
 
   &__item {
+    position: relative;
     height: 285px;
     background-color: #838383;
+    overflow: hidden;
+    transition: .5s;
+
+    &_hover {
+      position: absolute;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/look.png") no-repeat center, rgba(16, 201, 195, 0.85);
+      transition: .5s;
+    }
+
+    &:hover {
+      .b-productsGridUnit__item_hover {
+        top:0;
+      }
+    }
   }
 }

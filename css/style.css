@@ -6806,7 +6806,7 @@ a.text-dark:hover, a.text-dark:focus {
   .b-mainMenu__item {
     color: #191919;
     font-size: 12px;
-    font-weight: 500; }
+    font-weight: bold; }
     .b-mainMenu__item_active {
       color: #10c9c3; }
     .b-mainMenu__item:hover {
@@ -6853,8 +6853,21 @@ a.text-dark:hover, a.text-dark:focus {
   .b-productsGridUnit:nth-child(n+2) .b-productsGridUnit__item {
     margin-top: 30px; } }
 .b-productsGridUnit__item {
+  position: relative;
   height: 285px;
-  background-color: #838383; }
+  background-color: #838383;
+  overflow: hidden;
+  transition: .5s; }
+  .b-productsGridUnit__item_hover {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/look.png") no-repeat center, rgba(16, 201, 195, 0.85);
+    transition: .5s; }
+  .b-productsGridUnit__item:hover .b-productsGridUnit__item_hover {
+    top: 0; }
 
 body {
   background-color: #f6f6f6;

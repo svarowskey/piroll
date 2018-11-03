@@ -6863,4 +6863,9 @@ body {
 .container {
   padding: 0; }
 
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    text-align: right;
+    margin-top: 20px; } }
+
 /*# sourceMappingURL=style.css.map */

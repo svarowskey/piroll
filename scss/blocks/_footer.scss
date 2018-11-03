@@ -1,0 +1,50 @@
+.b-footer {
+  padding: 100px 90px;
+  background-color: #141414;
+  color: #bcbcbc;
+  font-family: 'NunitoSans', sans-serif;
+  &__link {
+    color:  #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    &:hover {
+      color: #10c9c3;;
+      text-decoration: none;
+    }
+    margin-bottom: 5px;
+  }
+}
+.b-footerFooterCopyrights {
+  &__title {
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 26px;
+  }
+
+  &__text {
+    max-width: 240px;
+  }
+}
+.b-footerFooterContacts {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.b-footerFooterMenu {
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.b-footerFooterSocials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+}

@@ -6869,6 +6869,47 @@ a.text-dark:hover, a.text-dark:focus {
   .b-productsGridUnit__item:hover .b-productsGridUnit__item_hover {
     top: 0; }
 
+.b-footer {
+  padding: 100px 90px;
+  background-color: #141414;
+  color: #bcbcbc;
+  font-family: 'NunitoSans', sans-serif; }
+  .b-footer__link {
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px; }
+    .b-footer__link:hover {
+      color: #10c9c3;
+      text-decoration: none; }
+
+.b-footerFooterCopyrights__title {
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 26px; }
+.b-footerFooterCopyrights__text {
+  max-width: 240px; }
+
+.b-footerFooterContacts {
+  display: flex;
+  justify-content: center;
+  padding-left: 0; }
+
+.b-footerFooterMenu__list {
+  display: flex;
+  flex-direction: column; }
+
+.b-footerFooterSocials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+  .b-footerFooterSocials__list {
+    display: flex;
+    flex-direction: column;
+    width: fit-content; }
+
 body {
   background-color: #f6f6f6;
   font-family: Montserrat, sans-serif; }

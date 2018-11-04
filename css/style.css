@@ -6903,6 +6903,9 @@ a.text-dark:hover, a.text-dark:focus {
     transition: .5s; }
   .b-productsGridUnit__item:hover .b-productsGridUnit__item_hover {
     top: 0; }
+  @media (max-width: 767.98px) {
+    .b-productsGridUnit__item {
+      height: 400px; } }
 
 .b-footer {
   padding: 100px 90px;

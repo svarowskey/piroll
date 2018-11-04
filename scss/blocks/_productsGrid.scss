@@ -41,9 +41,58 @@
   &__item {
     position: relative;
     height: 285px;
-    background-color: #838383;
+    //background-color: #838383;
     overflow: hidden;
     transition: .5s;
+
+    &_1{
+      background: url("../images/1.jpg");
+      background-size: cover;
+    }
+    &_2{
+      background: url("../images/2.jpg");
+      background-size: cover;
+    }
+    &_3{
+      background: url("../images/3.jpg");
+      background-size: cover;
+    }
+    &_4{
+      background: url("../images/4.jpg");
+      background-size: cover;
+    }
+    &_5{
+      background: url("../images/5.jpg");
+      background-size: cover;
+    }
+    &_6{
+      background: url("../images/6.jpg");
+      background-size: cover;
+    }
+    &_7{
+      background: url("../images/7.jpg");
+      background-size: cover;
+    }
+    &_8{
+      background: url("../images/8.jpg");
+      background-size: cover;
+    }
+    &_9{
+      background: url("../images/9.jpg");
+      background-size: cover;
+    }
+    &_10{
+      background: url("../images/10.jpg");
+      background-size: cover;
+    }
+    &_11{
+      background: url("../images/11.jpg");
+      background-size: cover;
+    }
+    &_12{
+      background: url("../images/12.jpg");
+      background-size: cover;
+    }
 
     &_hover {
       position: absolute;
